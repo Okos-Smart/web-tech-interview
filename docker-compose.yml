@@ -1,0 +1,11 @@
+services:
+  frontend:
+    build:
+      context: ./tech-interview-frontend
+    ports:
+      - 3000:3000
+    volumes:
+      - ./tech-interview-frontend:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development
