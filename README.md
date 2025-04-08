@@ -1,10 +1,14 @@
 # Lexter Tech Interview Boilerplate
 
-This codebase will be used in the Lexter Technical interview for all levels of developers. its purpose is allow candidates to demonstrate their ability to navigate across unfamiliar codebases & patterns, as well as show their adapatability. ?
+This codebase is a **deliberately buggy React + TypeScript project** created for Lexter’s technical interviews. Its purpose is to let candidates demonstrate their ability to **navigate an unfamiliar codebase**, **debug issues**, and show adaptability to different coding patterns.
 
-The entire codebase should be considered.
+**Important:** The application contains intentional bugs and omissions. You are expected to identify and fix these during the interview. Likewise, documentation is minimal by design – reading the code and configuration will be part of the evaluation
 
-This codebase purposely lacks documentation to allow for candidates to demonstrate their ability to read code configurations.
+Candidates should consider the _entire_ codebase during the exercise. The project’s structure (routes, components, hooks, etc.) is similar to what you’d find in a real-world app, albeit with some twists to test your understanding. Don’t be alarmed if something doesn’t work at first; use your debugging skills to figure out why.
+
+We recommend running the app and exploring its functionality. Pay attention to error messages or unexpected behavior – they are clues to the issues we’ve planted. Solving these will demonstrate your technical problem-solving skills.
+
+Feel free to ask clarifying questions during the interview. Good luck, and happy debugging!
 
 ## Our Dev Handbook
 
