@@ -18,18 +18,17 @@ export const TodosIndex = () => {
       <Divider />
       <form onSubmit={form.handleSubmit(onSubmit)}>
         <div className="flex gap-2">
-          <input {...form.register('name', { required: true })} placeholder="Name" />
-          <input {...form.register('description', { required: true })} placeholder="Description" />
+          <input {...form.register('todo', { required: true })} placeholder="Todo description" />
           <button type="submit">Submit</button>
         </div>
       </form>
       <Divider />
-      <div className="flex flex-wrap gap-4">
+      <div className="flex flex-col flex-wrap gap-4">
         {items.data.map((item) => (
           <Link to={`${item.id}`} key={item.id}>
             <div className="flex flex-col gap-2 p-4 border rounded-md">
               <div className="text-sm text-gray-500">{item.id}</div>
-              <div className="text-sm">{item.name}</div>
+              <div className="text-sm">{item.todo}</div>
             </div>
           </Link>
         ))}

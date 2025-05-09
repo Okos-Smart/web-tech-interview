@@ -1,6 +1,6 @@
-# Lexter Tech Interview Boilerplate
+# Okos Modified Tech Interview Boilerplate
 
-This codebase is a **deliberately buggy React + TypeScript project** created for Lexter’s technical interviews. Its purpose is to let candidates demonstrate their ability to **navigate an unfamiliar codebase**, **debug issues**, and show adaptability to different coding patterns.
+This codebase is a **deliberately buggy React + TypeScript project** created from Lexter’s technical interviews with modifications made by Okos team. Its purpose is to let candidates demonstrate their ability to **navigate an unfamiliar codebase**, **debug issues**, and show adaptability to different coding patterns.
 
 **Important:** The application contains intentional bugs and omissions. You are expected to identify and fix these during the interview. Likewise, documentation is minimal by design – reading the code and configuration will be part of the evaluation
 
@@ -10,6 +10,6 @@ We recommend running the app and exploring its functionality. Pay attention to e
 
 Feel free to ask clarifying questions during the interview. Good luck, and happy debugging!
 
-## Our Dev Handbook
-
+## Reference
+The original code was created based on Lexter's Dev Handbook. Even though Okos does not prescripe to it, you can use it as a guide on your coding style.
 https://gist.github.com/elijah-highbar/ad5888cc60ad374288ddd43e935168d7

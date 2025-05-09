@@ -3,8 +3,8 @@ import data from '../assets/data.json'
 
 type Item = {
   id: number
-  name: string
-  description: string
+  todo: string
+  completed: boolean
 }
 
 export const useItems = () => {
